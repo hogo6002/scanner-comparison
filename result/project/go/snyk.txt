@@ -1,0 +1,23 @@
+
+Testing ../docker/go/src...
+
+✗ Medium severity vulnerability found in github.com/ipfs/go-bitfield
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-GOLANG-GITHUBCOMIPFSGOBITFIELD-3318111
+  Introduced through: github.com/ipfs/go-bitfield@1.0.0
+  From: github.com/ipfs/go-bitfield@1.0.0
+  Fixed in: 1.1.0
+
+
+
+Organization:      hogo6002
+Package manager:   gomodules
+Target file:       go.mod
+Project name:      final
+Open source:       no
+Project path:      ../docker/go/src
+Licenses:          enabled
+
+Tested 2 dependencies for known issues, found 1 issue, 1 vulnerable path.
+
+
