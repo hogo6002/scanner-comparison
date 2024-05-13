@@ -1,0 +1,15 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "libxmljs": "==1.0.10",
+    "hono": "==4.2.6"
+  }
+}

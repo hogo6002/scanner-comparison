@@ -2,8 +2,7 @@ FROM debian:stable-slim
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y \
-    golang \
-    ca-certificates
+    npm --no-install-recommends
 
 RUN mkdir /src
 RUN mkdir /lockfile
@@ -15,7 +14,13 @@ COPY src/ /src
 COPY lockfile/ /lockfile
 COPY artifact/ /artifact
 
-RUN cd /src && go build -o main .
+RUN cd /src && npm install
+
+# Build artifact folder, then delete lockfile.
+RUN cd /artifact && npm install
+RUN rm /artifact/package.json
+RUN rm /artifact/package-lock.json
+
 
 ENTRYPOINT ["/bin/bash"]
 

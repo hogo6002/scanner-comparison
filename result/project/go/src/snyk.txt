@@ -1,5 +1,5 @@
 
-Testing ../docker/go...
+Testing ../docker/go/src...
 
 ✗ Medium severity vulnerability found in github.com/ipfs/go-bitfield
   Description: Improper Input Validation
@@ -12,10 +12,10 @@ Testing ../docker/go...
 
 Organization:      hogo6002
 Package manager:   gomodules
-Target file:       src/go.mod
+Target file:       go.mod
 Project name:      final
 Open source:       no
-Project path:      ../docker/go
+Project path:      ../docker/go/src
 Licenses:          enabled
 
 Tested 2 dependencies for known issues, found 1 issue, 1 vulnerable path.

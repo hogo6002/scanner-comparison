@@ -1,0 +1,94 @@
+
+Testing ../docker/npm...
+
+Tested 60 dependencies for known issues, found 4 issues, 4 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade hono@4.2.6 to hono@4.2.7 to fix
+  ✗ Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-HONO-6672874] in hono@4.2.6
+    introduced by hono@4.2.6
+
+
+Issues with no direct upgrade or patch:
+  ✗ Missing Release of Resource after Effective Lifetime [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116] in inflight@1.0.6
+    introduced by libxmljs@1.0.10 > @mapbox/node-pre-gyp@1.0.11 > rimraf@3.0.2 > glob@7.2.3 > inflight@1.0.6
+  No upgrade or patch available
+  ✗ Remote Code Execution (RCE) [High Severity][https://security.snyk.io/vuln/SNYK-JS-LIBXMLJS-6091649] in libxmljs@1.0.10
+    introduced by libxmljs@1.0.10
+  No upgrade or patch available
+  ✗ Type Confusion [High Severity][https://security.snyk.io/vuln/SNYK-JS-LIBXMLJS-6807576] in libxmljs@1.0.10
+    introduced by libxmljs@1.0.10
+  No upgrade or patch available
+
+
+
+Organization:      hogo6002
+Package manager:   npm
+Target file:       artifact/package-lock.json
+Project name:      test-npm
+Open source:       no
+Project path:      ../docker/npm
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing ../docker/npm...
+
+Tested 30 dependencies for known issues, found 4 issues, 4 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade ip@2.0.0 to ip@2.0.1 to fix
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-IP-6240864] in ip@2.0.0
+    introduced by ip@2.0.0
+
+  Upgrade mysql2@3.9.6 to mysql2@3.9.7 to fix
+  ✗ Arbitrary Code Injection (new) [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-MYSQL2-6670046] in mysql2@3.9.6
+    introduced by mysql2@3.9.6
+
+  Upgrade react-dom@16.4.2 to react-dom@16.5.0 to fix
+  ✗ Information Exposure [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFETCH-2342118] in node-fetch@1.7.3
+    introduced by react-dom@16.4.2 > fbjs@0.8.18 > isomorphic-fetch@2.2.1 > node-fetch@1.7.3
+  ✗ Denial of Service [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFETCH-674311] in node-fetch@1.7.3
+    introduced by react-dom@16.4.2 > fbjs@0.8.18 > isomorphic-fetch@2.2.1 > node-fetch@1.7.3
+
+
+
+Organization:      hogo6002
+Package manager:   npm
+Target file:       lockfile/package-lock.json
+Project name:      test-npm
+Open source:       no
+Project path:      ../docker/npm
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing ../docker/npm...
+
+Tested 13 dependencies for known issues, found 1 issue, 1 vulnerable path.
+
+
+Issues with no direct upgrade or patch:
+  ✗ Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-STATICSERVER-5722341] in static-server@2.2.0
+    introduced by static-server@2.2.0
+  No upgrade or patch available
+
+
+
+Organization:      hogo6002
+Package manager:   npm
+Target file:       src/package-lock.json
+Project name:      test-npm
+Open source:       no
+Project path:      ../docker/npm
+Licenses:          enabled
+
+
+Tested 3 projects, 3 contained vulnerable paths.
+
+
+

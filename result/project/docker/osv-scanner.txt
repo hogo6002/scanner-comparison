@@ -1,0 +1,2 @@
+Scanning dir ../docker/docker
+Failed to walk ../docker/docker: lstat ../docker/docker: no such file or directory

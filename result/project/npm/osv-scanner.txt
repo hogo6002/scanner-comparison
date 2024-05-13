@@ -1,0 +1,16 @@
+Scanning dir ../docker/npm
+Scanned /usr/local/google/home/gongh/Desktop/code/hogo6002/scanner-comparison/docker/npm/artifact/package-lock.json file and found 60 packages
+Scanned /usr/local/google/home/gongh/Desktop/code/hogo6002/scanner-comparison/docker/npm/lockfile/package-lock.json file and found 31 packages
+Scanned /usr/local/google/home/gongh/Desktop/code/hogo6002/scanner-comparison/docker/npm/src/package-lock.json file and found 13 packages
++-------------------------------------+------+-----------+---------------+---------+------------------------------------------+
+| OSV URL                             | CVSS | ECOSYSTEM | PACKAGE       | VERSION | SOURCE                                   |
++-------------------------------------+------+-----------+---------------+---------+------------------------------------------+
+| https://osv.dev/GHSA-3mpf-rcc7-5347 | 5.3  | npm       | hono          | 4.2.6   | ../docker/npm/artifact/package-lock.json |
+| https://osv.dev/GHSA-6433-x5p4-8jc7 | 8.1  | npm       | libxmljs      | 1.0.10  | ../docker/npm/artifact/package-lock.json |
+| https://osv.dev/GHSA-mg49-jqgw-gcj6 | 8.1  | npm       | libxmljs      | 1.0.10  | ../docker/npm/artifact/package-lock.json |
+| https://osv.dev/GHSA-78xj-cgh5-2h22 |      | npm       | ip            | 2.0.0   | ../docker/npm/lockfile/package-lock.json |
+| https://osv.dev/GHSA-4rch-2fh8-94vw | 9.8  | npm       | mysql2        | 3.9.6   | ../docker/npm/lockfile/package-lock.json |
+| https://osv.dev/GHSA-w7rc-rwvf-8q5r | 2.6  | npm       | node-fetch    | 1.7.3   | ../docker/npm/lockfile/package-lock.json |
+| https://osv.dev/GHSA-r683-j2x4-v87g | 8.8  | npm       | node-fetch    | 1.7.3   | ../docker/npm/lockfile/package-lock.json |
+| https://osv.dev/GHSA-v834-rhv4-65m3 | 7.5  | npm       | static-server | 2.2.0   | ../docker/npm/src/package-lock.json      |
++-------------------------------------+------+-----------+---------------+---------+------------------------------------------+

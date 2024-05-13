@@ -1,0 +1,11 @@
+NAME                           INSTALLED  FIXED-IN  TYPE       VULNERABILITY        SEVERITY 
+github.com/blevesearch/bleve   v1.0.14              go-module  CVE-2022-31022       Medium    
+github.com/go-jose/go-jose/v3  v3.0.0     3.0.1     go-module  GHSA-2c7c-3mj9-8fqh  Medium    
+github.com/go-jose/go-jose/v3  v3.0.0     3.0.3     go-module  CVE-2024-28180       Medium    
+github.com/hashicorp/vault     v1.14.1    1.14.10   go-module  CVE-2024-2048        High      
+github.com/hashicorp/vault     v1.14.1    1.14.8    go-module  CVE-2023-6337        High      
+github.com/hashicorp/vault     v1.14.1    1.14.6    go-module  CVE-2023-5954        High      
+github.com/hashicorp/vault     v1.14.1    1.16.0    go-module  CVE-2024-2660        Medium    
+github.com/hashicorp/vault     v1.14.1    1.14.3    go-module  CVE-2023-4680        Medium    
+golang.org/x/net               v0.20.0    0.23.0    go-module  CVE-2023-45288       Unknown   
+google.golang.org/protobuf     v1.31.0    1.33.0    go-module  CVE-2024-24786       Unknown
