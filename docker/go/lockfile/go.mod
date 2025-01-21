@@ -1,6 +1,6 @@
 module main
 
-go 1.22
+go 1.22.0
 
 require (
 	github.com/blevesearch/bleve v1.0.14

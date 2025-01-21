@@ -1,8 +1,6 @@
-FROM debian:stable-slim
+FROM nginx:mainline-alpine3.19
 
-RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y \
-    npm --no-install-recommends
+RUN apk add --update nodejs npm
 
 RUN mkdir /src
 RUN mkdir /lockfile
